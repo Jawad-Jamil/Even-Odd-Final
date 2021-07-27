@@ -86,10 +86,10 @@ button:hover , .loop_wrapper a:hover{
     width: 100%;
     border-radius: 5px;
     padding: 10px;
-    background-color: #f3f3f3;
+    background-color: #fbfbfb;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    border: 1px solid #e3e3e3;
 }
 
 .result .even_odd_wrapper h3{
