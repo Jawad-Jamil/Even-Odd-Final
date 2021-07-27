@@ -89,6 +89,7 @@ button:hover , .loop_wrapper a:hover{
     background-color: #fbfbfb;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     border: 1px solid #e3e3e3;
 }
 
