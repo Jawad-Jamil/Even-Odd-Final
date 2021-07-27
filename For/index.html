@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Layout</title>
+    <link rel="shortcut icon" href="../fav.svg.png"">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mobile.css">
+    <link rel="stylesheet" href="../app_style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+
+<body  >
+    <!-- onload="alerts()" -->
+    <div class="mobile_body">
+        <header>
+            <div id="top_menu" class="top_menu">
+                <div class="menu_icon">
+                    <i onclick="bar_call()" id="bars" class="fas fa-bars"></i>
+                </div>
+
+                <div class="top_text">
+                    <p>ForLoop</p>
+                </div>
+
+                <div class="edit_top_menu">
+                    <i class="far fa-edit"></i>
+                </div>
+
+                <i onclick="crossing()" id="cross" class="fas fa-times cross"></i>
+                <div onclick="crossing()" id="overlay" class="overlay"></div>
+                <div id="menu_bar_div" class="menu_items">
+                    <div class="menu-items_wrapper">
+    
+    
+                        <ul class="menu_ul">
+                            <li id="fashion"><a href="#"><span><i class="fas fa-tshirt al_dprt_i"></i> Fashion</span>          <span class="al_dprt_i2"><i id="id" class="fas fa-angle-down"></i></span></a></li>
+                            <li id="electronics"><a href="#"><span><i class="fas fa-clock al_dprt_i"></i> Electronics</span>       <span><i class="fas fa-angle-down"></i></span></a></li>
+                            <li id="gifts"><a href="#"><span><i class="fas fa-gift al_dprt_i"></i> Gifts</span>              <span><i class="fas fa-angle-down"></i></span></a></li>
+                            <li id="home_garden"><a href="#"><span><i class="fas fa-fan al_dprt_i"></i> Home &amp; Garden</span>       <span><i class="fas fa-angle-down"></i></span></a></li>
+                            <li id="sport"><a href="#"><span><i class="far fa-futbol al_dprt_i"></i> Sports</span>    <span><i class="fas fa-angle-down"></i></span></a></li>
+                            <li><a href="#">Products</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Elements</a></li>
+                            <li><a href="#">Hire Us</a></li>
+                        </ul>
+    
+                        
+                        <ul class="social_menu">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+    
+                        
+                    </div>
+
+            </div>
+
+        </header>
+
+
+        <main>
+            <div class="content_part">
+                <div class="app_body">
+                    <div class="app_wrapper">
+                    <form name="datas" action="#">
+                        <div class="input_wrapper">
+                            <input type="number" name="num1" id="num1" placeholder="Type a Even/Odd Number">      
+                            <input type="number" name="num2" id="num2" placeholder="Type Number Range">
+                        </div>
+
+                        <div class="button_wrapper">
+                            <button onclick="even(+datas.num1.value,+datas.num2.value)" type="button">Even</button>
+                            <button onclick="odd(+datas.num1.value,+datas.num2.value)" type="button">Odd</button>
+                        </div>
+
+                        <div class="result">
+
+                            <div class="even_odd_wrapper">
+                                <h3 id="ev_h3">Even</h3>
+                                <ul id="even" class="all_result">
+                                </ul>
+                            </div>
+
+
+                            <div class="even_odd_wrapper">
+                                <h3 id="odd_h3">Odd</h3>                            
+                                <ul id="odd" class="even_odd_result">
+                                </ul>                               
+                            </div>
+
+                        </div>
+                    </form>
+
+                    <div class="loop_wrapper">
+                        <div class="clear_wrapper"><button onclick="reset()" class="clear">Clear</button></div>
+                         <a href="../While/index.html">WhileLoop</a>
+                         <a href="../For/index.html">ForLoop</a>
+                         <a href="../DoWhile/index.html">DoWhile</a>
+                         <a href="../Recursive/index.html">Recursive</a>
+                     </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+
+
+        <footer>
+            <div class="bottom_menu">
+
+                <div class="bottom_menu_wrapper">
+
+                    <div class="option active">
+                        <a href="#">
+                            <div class="opt_icon"><i class="fas fa-home"></i></div>
+                            <div class="opt_text">home</div>
+                        </a>
+                    </div>
+
+                    <div class="option">
+                        <a href="#">
+                            <div class="opt_icon"><i class="fas fa-search"></i></div>
+                            <div class="opt_text">search</div>
+                        </a>
+                    </div>
+
+                    <div class="option">
+                        <a href="#">
+                            <div class="opt_icon"><i class="fas fa-shopping-cart"></i></div>
+                            <div class="opt_text">shopping</div>
+                        </a>
+                    </div>
+
+                    <div class="option">
+                        <a href="#">
+                            <div class="opt_icon"><i class="fas fa-heart"></i></div>
+                            <div class="opt_text">fevorites</div>
+                        </a>
+                    </div>
+
+                    <div class="option">
+                        <a href="#">
+                            <div class="opt_icon"><i class="fas fa-ellipsis-h"></i></div>
+                            <div class="opt_text">more</div>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+    </div>
+    
+    <script src="../custom.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
