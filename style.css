@@ -16,6 +16,12 @@
 }
 
 
+body{
+     background-image: url(bg.jpg);
+     background-size: cover;
+}
+
+
 @media (min-width: 576px){
     .mobile_body{
         width: 575px;
@@ -26,12 +32,6 @@
         border-radius: 5px;
         backdrop-filter: blur(6px);
         overflow: hidden;
-    }
-
-
-    body{
-        background-image: url(bg.jpg);
-        background-size: cover;
     }
 
 }
