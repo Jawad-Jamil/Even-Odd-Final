@@ -21,6 +21,10 @@ body{
      background-size: cover;
 }
 
+.mobile_body{
+            backdrop-filter: blur(6px);
+}
+
 
 @media (min-width: 576px){
     .mobile_body{
@@ -30,7 +34,6 @@ body{
         height: 95vh;
         margin: 2vh auto;
         border-radius: 5px;
-        backdrop-filter: blur(6px);
         overflow: hidden;
     }
 
